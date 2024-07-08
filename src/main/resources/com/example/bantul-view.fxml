@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="617.0" style="-fx-background-color: #87cefa; -fx-opacity: 40;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.BantulController">
+   <children>
+      <Line endX="515.6006469726562" layoutX="100.0" layoutY="53.0" startX="-100.0" />
+      <Button fx:id="btnBack" layoutX="121.0" layoutY="14.0" mnemonicParsing="false" onAction="#toBack" text="Back" />
+      <Button fx:id="btnDana" layoutX="379.0" layoutY="15.0" mnemonicParsing="false" onAction="#switchToDana" text="Menggalang Dana" />
+      <Text fill="#0000007f" layoutX="17.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="status: ">
+         <font>
+            <Font size="17.0" />
+         </font></Text>
+      <Text layoutX="73.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="selesai">
+         <font>
+            <Font size="17.0" />
+         </font></Text>
+      <Circle fill="#04ff00" layoutX="134.0" layoutY="96.0" radius="8.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Text layoutX="17.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pengolahan Air Limbah Kabupaten Bantul">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffd0" height="369.0" layoutX="19.0" layoutY="111.0" stroke="WHITE" strokeType="INSIDE" width="585.0" />
+      <Text layoutX="30.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bertujuan supaya untuk menjaga kebersihan lingkungan. Dengan adanya kebersihan lingkungan yang ada di desa akan berdampak besar bagi kelangsungan hidup manusia maupun lingkungan di masa-masa yang akan datang." wrappingWidth="563.7205257415771">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telah Dilaksanakan di Bambanglipuro, Kabupaten Bantul." wrappingWidth="563.7205257415771">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Proyek pertama kali berjalan pada tanggal 20 November 2022. Pada tanggal 5 Desember proyek sempat terhenti karena adanya laporan kebocoran yang mengakibatkan penanganan pengolahan air terganggu. Pada 10 Desember, proyek kembali dilanjutkan. Pada 1 Januari proyek selesai." wrappingWidth="563.7205257415771">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Proyek mengahabiskan dana sebesar Rp 15.000.000" wrappingWidth="563.7205257415771">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
